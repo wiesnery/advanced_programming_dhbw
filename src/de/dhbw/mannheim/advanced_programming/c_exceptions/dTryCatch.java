@@ -53,7 +53,7 @@ public class dTryCatch {
 
             // 10. We can also declare multiple catch clauses which handle Exceptions specifically
             // Which one will be executed?
-        } catch (ArithmeticException  e) {
+        } catch (ArithmeticException e) {
             System.out.println("ArithmeticException handled");
         } catch (FileNotFoundException e) {
             System.out.println("FileNotFoundException handled");

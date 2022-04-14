@@ -23,7 +23,7 @@ public class cDeclarationOfThrownExceptions {
     void copyFile(String fileName) throws FileNotFoundException {
         var knownFiles = List.of("file1.txt", "file2.txt", "file3.txt");
 
-        if (knownFiles.contains(fileName))
+        if (!knownFiles.contains(fileName))
             throw new FileNotFoundException();
 
         // something unexpected happened

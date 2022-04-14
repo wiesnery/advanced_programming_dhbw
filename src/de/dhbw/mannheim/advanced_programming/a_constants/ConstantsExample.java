@@ -3,8 +3,8 @@ package de.dhbw.mannheim.advanced_programming.a_constants;
 public class ConstantsExample {
 
     /* Declaration:
-        [<visibility modifier>] [static] final <type> <name> = <initial value>;
-     */
+            [<visibility modifier>] [static] final <type> <name> = <initial value>;
+         */
     // TODO: how do you call this kind of naming?
     public final int DAYS_PER_WEEK = 7;
 
